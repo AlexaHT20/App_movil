@@ -42,7 +42,7 @@ class MenuScreen extends StatelessWidget {
                 padding: const EdgeInsets.all(16),
                 children: [
                   _menuButton(context, 'Registrar Mascota', Icons.pets,
-                      Colors.blue, '/registrarMascota'),
+                      Colors.blue, '/register_pet'),
                   _menuButton(context, 'Registrar Dieta', Icons.restaurant_menu,
                       Colors.green, '/registrarDieta'),
                   _menuButton(context, 'Horario de Comida', Icons.schedule,
