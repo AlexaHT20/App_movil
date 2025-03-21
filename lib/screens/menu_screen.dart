@@ -44,7 +44,7 @@ class MenuScreen extends StatelessWidget {
                   _menuButton(context, 'Registrar Mascota', Icons.pets,
                       Colors.blue, '/register_pet'),
                   _menuButton(context, 'Registrar Dieta', Icons.restaurant_menu,
-                      Colors.green, '/registrarDieta'),
+                      Colors.green, '/register_diet'),
                   _menuButton(context, 'Horario de Comida', Icons.schedule,
                       Colors.orange, '/horarioComida'),
                   _menuButton(context, 'Estado del Dispensador', Icons.percent,
