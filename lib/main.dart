@@ -7,7 +7,6 @@ import 'screens/settings_screen.dart';
 import 'screens/register_pet_screen.dart';
 import 'screens/menu_screen.dart';
 import 'screens/my_pet_screen.dart';
-
 void main() {
   runApp(const MyApp());
 }
@@ -44,7 +43,8 @@ class MyApp extends StatelessWidget {
             salud: '',
             sexo: '',
             image: '',
-         ), // Pantalla de perfil de mascota
+          ),
+          // Pantalla de perfil de mascota
       },
     );
   }
